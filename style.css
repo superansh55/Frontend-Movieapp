@@ -106,3 +106,37 @@ a.review-button:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Hover shadow */
 }
 
+/* Add media queries for responsiveness */
+
+@media (max-width: 768px) {
+  .topnav {
+    flex-direction: column;
+  }
+  .search-container {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+  .column {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .topnav {
+    padding: 10px;
+  }
+  .search-container {
+    width: 100%;
+    padding: 10px;
+  }
+  .card {
+    width: 100%;
+    padding: 10px;
+  }
+  .column {
+    width: 100%;
+    padding: 10px;
+  }
+}
